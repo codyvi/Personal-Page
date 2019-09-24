@@ -2,16 +2,21 @@
     background:  url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80) center center / cover no-repeat;
 }
 
-#hexperince{
+#hexperince, #hskills{
     font-family: Lato;
 }
 
 body{
     background: rgb(243, 248, 248);
-
+    width: 100%;
 }
 
 #projects{
     background: rgb(243, 248, 248);
    
+}
+
+#skills{
+    background: rgb(243, 248, 248);
+    
 }
