@@ -29,3 +29,11 @@ hr.new5 {
 .post-author img{
     border-radius: 50%;
 }
+
+#mod1,#mod2,#mod3,#mod4{
+    width: 100px;
+    height: 100px;
+    vertical-align: center;
+    border-radius: 50%;
+}
+
