@@ -1,5 +1,5 @@
 #header{
-    background:  url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80) center center / cover no-repeat;
+    background: #1abc9c
 }
 
 #hexperince, #hskills{
@@ -7,16 +7,24 @@
 }
 
 body{
-    background: rgb(243, 248, 248);
+    background: #e0dcd9;
     width: 100%;
 }
 
-#projects{
-    background: rgb(243, 248, 248);
-   
+hr.new5 {
+    border: 1px solid black;
+  }
+
+  .post-author img{
+    width: 100px;
+    height: 100px;
+    vertical-align: center;
 }
 
-#skills{
-    background: rgb(243, 248, 248);
-    
+.post-author span{
+    margin-left: 16px; 
+}
+
+.post-author img{
+    border-radius: 50%;
 }
