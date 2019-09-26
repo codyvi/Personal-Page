@@ -42,3 +42,29 @@ hr.new5 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#footer{
+    background-color: #2f2f2f;
+    padding: 50px 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer h4{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#footer p{
+    color: white;
+}
+
+
+.column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
