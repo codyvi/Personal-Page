@@ -25,10 +25,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="test.html"> Home<span class="sr-only">(current)</span></a>
+              <form method="POST" action="/">
+                <input id="button1" class="btn btn-md btn-outline-light" type=submit name='submit' value="Home">
+          </form>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <form method="POST" action="{{ url_for('about') }}">
+                <input id="button1" class="btn btn-md btn-outline-light" type=submit name='submit' value="About">
+          </form>
             </li>
         </div>
       </nav>
