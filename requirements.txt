@@ -3,3 +3,4 @@ Flask-Babel==0.12.2
 Flask-MySQL==1.4.0
 Flask-Table==0.5.0
 PyMySQL==0.9.3
+gunicorn==19.9.0
